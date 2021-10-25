@@ -1,11 +1,14 @@
 body {
-	background: #686d76;
+	background: #373a40;
 	font-family: "Share Tech", sans-serif;
 }
-h1,
+h1 {
+	font-size: 8vw;
+}
 h2 {
-	color: #373a40;
+	color: #eeeeee;
 	padding: 12px;
+	font-size: 4vw;
 }
 li {
 	display: flex;
@@ -16,7 +19,7 @@ li {
 h1 {
 	text-align: center;
 }
-
+/* Text and images inside background pic */
 #container {
 	width: 100%;
 	position: relative;
@@ -47,6 +50,24 @@ h1 {
 	text-align: center;
 }
 
+/* Info section  */
+#container-info {
+	height: 25vh;
+	width: 100%;
+	padding: 20px;
+	position: relative;
+	background-color: #373a40;
+	background-image: -webkit-linear-gradient(30deg, #373a40 50%, #eeeeee 50%);
+	box-shadow: -2px -10px 100px rgb(68, 76, 83);
+}
+.right-side-text {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #373a40;
+	font-size: 4vw;
+}
+
 /*navbar*/
 body > nav > div > a:hover {
 	color: #19d3da !important;
@@ -54,9 +75,7 @@ body > nav > div > a:hover {
 body > nav {
 	background-color: #373a40;
 }
-body > nav > div > a:hover {
-	color: #eeeeee;
-}
+
 #spanh1 {
 	color: #19d3da;
 }
@@ -65,10 +84,10 @@ body > nav > div > a:hover {
 	font-size: 200%;
 }
 #icon-color {
-	color: #eeeeee;
+	color: #19d3da;
 }
 #navbarScrollingDropdown {
-	color: #eeeeee;
+	color: #19d3da;
 }
 .navbar-nav > li > .dropdown-menu {
 	background-color: #373a40;
