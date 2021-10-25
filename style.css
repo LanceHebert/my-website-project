@@ -1,3 +1,26 @@
 body {
-	background: blue;
+	background: #212121;
+}
+h1,
+h2 {
+	color: #6d9886;
+}
+#spanh1 {
+	color: #d9cab3;
+}
+.navbar-custom .navbar-brand {
+	color: #d9cab3;
+	font-size: 500%;
+}
+.navbar-custom {
+	background-color: #6d9886;
+}
+.navbar-nav .nav-link {
+	color: #d9cab3;
+}
+#icon-color {
+	color: #d9cab3;
+}
+.nav-item {
+	padding: 10px;
 }
