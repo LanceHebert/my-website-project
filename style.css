@@ -1,9 +1,11 @@
 body {
 	background: #212121;
+	font-family: "Share Tech", sans-serif;
 }
 h1,
 h2 {
 	color: #6d9886;
+	padding: 12px;
 }
 li {
 	display: flex;
@@ -11,7 +13,9 @@ li {
 	padding: 10px;
 	color: #d9cab3;
 }
-
+h1 {
+	text-align: center;
+}
 /*navbar*/
 body > nav > div > a:hover {
 	color: #d9cab3 !important;
