@@ -13,8 +13,14 @@ li {
 }
 
 /*navbar*/
+body > nav > div > a:hover {
+	color: #d9cab3 !important;
+}
 body > nav {
 	background-color: #6d9886;
+}
+body > nav > div > a:hover {
+	color: #d9cab3;
 }
 #spanh1 {
 	color: #d9cab3;
@@ -95,6 +101,7 @@ body > nav {
 	left: 0;
 	right: 100%;
 	bottom: 0;
+
 	background: #f6f6f6;
 	height: 4px;
 	-webkit-transition-property: right;
