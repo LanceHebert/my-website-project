@@ -19,10 +19,7 @@ li {
 h1 {
 	text-align: center;
 }
-ul .techgonologyList {
-	float: left;
-	display: block;
-}
+
 /* Text and images inside background pic */
 #container {
 	width: 100%;
@@ -110,13 +107,14 @@ ul .techgonologyList {
 	bottom: 40%;
 }
 
-.techgonologyList {
+.technologyList {
 	position: relative;
 	text-align: left;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	color: #373a40;
 	list-style-type: circle;
-	display: list-item;
+	display: inline-flex;
+	left: 40%;
 }
 /*navbar*/
 body > nav > div > a:hover {
@@ -219,4 +217,8 @@ body > nav {
 .hvr-underline-from-left:focus:before,
 .hvr-underline-from-left:active:before {
 	right: 0;
+}
+/* footer */
+body > div:nth-child(4) > footer {
+	background-color: #373a40 !important;
 }
