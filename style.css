@@ -93,7 +93,7 @@ h1 {
 	width: 25%;
 	height: auto;
 	position: relative;
-	left: 10%;
+	left: 90%;
 	bottom: 40%;
 }
 /* Lists */
@@ -106,6 +106,7 @@ h1 {
 	right: 50%;
 	bottom: 40%;
 	color: #373a40;
+	z-index: -1;
 }
 
 .technologyList {
