@@ -59,8 +59,8 @@ h1 {
 	padding: 20px;
 	position: relative;
 	display: flex;
-	background-color: #373a40;
-	background-image: -webkit-linear-gradient(30deg, #373a40 50%, #eeeeee 50%);
+
+	background-image: -webkit-linear-gradient(30deg, #eeeeee 50%, #373a40 50%);
 	box-shadow: -2px -10px 100px rgb(241, 242, 243);
 }
 
@@ -68,7 +68,7 @@ h1 {
 	position: relative;
 	bottom: 34%;
 	right: 0;
-	color: #373a40;
+	color: #eeeeee;
 	font-size: 4vw;
 	text-align: right;
 }
@@ -76,7 +76,7 @@ h1 {
 	position: relative;
 	top: 85%;
 	left: 0;
-	color: #eeeeee;
+	color: #373a40;
 	font-size: 4vw;
 }
 /* Info section Thumbnail pictures */
@@ -84,17 +84,17 @@ h1 {
 	width: 25%;
 	height: auto;
 	position: relative;
-	left: 10%;
+	left: 60%;
 	bottom: 40%;
+	align-content: right;
 }
 
 #thumbnail-pic2 {
 	width: 25%;
 	height: auto;
 	position: relative;
-	left: 60%;
+	left: 10%;
 	bottom: 40%;
-	align-content: right;
 }
 /* Lists */
 .educationList {
@@ -105,13 +105,14 @@ h1 {
 	font-size: 1vw;
 	right: 50%;
 	bottom: 40%;
+	color: #373a40;
 }
 
 .technologyList {
 	position: relative;
 	text-align: left;
 	font-size: 1.5vw;
-	color: #373a40;
+	color: #eeeeee;
 	list-style-type: circle;
 	display: inline-flex;
 	left: 40%;

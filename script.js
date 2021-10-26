@@ -26,12 +26,14 @@ aiPic.addEventListener("click", clicked);
 aiPic.addEventListener("mouseout", unhover);
 
 const aiPic2 = document.getElementById("thumbnail-pic2");
+const eduList = document.getElementsByClassName("educationList");
 
 function hover2(element) {
 	aiPic2.setAttribute(
 		"src",
 		"https://cdn-icons-png.flaticon.com/512/4529/4529989.png"
 	);
+	eduList.setAttribute("zIndex", "-1");
 }
 
 function unhover2(element) {
