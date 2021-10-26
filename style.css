@@ -117,6 +117,7 @@ h1 {
 	left: 40%;
 }
 /*navbar*/
+
 body > nav > div > a:hover {
 	color: #19d3da !important;
 }
@@ -221,4 +222,28 @@ body > nav {
 /* footer */
 body > div:nth-child(4) > footer {
 	background-color: #373a40 !important;
+}
+body
+	> div:nth-child(4)
+	> footer
+	> div.container.p-4.pb-0
+	> section
+	> a:nth-child(1) {
+	color: #19d3da;
+}
+body
+	> div:nth-child(4)
+	> footer
+	> div.container.p-4.pb-0
+	> section
+	> a:nth-child(2) {
+	color: #19d3da;
+}
+body
+	> div:nth-child(4)
+	> footer
+	> div.container.p-4.pb-0
+	> section
+	> a:nth-child(3) {
+	color: #19d3da;
 }
