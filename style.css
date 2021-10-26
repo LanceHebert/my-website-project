@@ -84,7 +84,7 @@ h1 {
 	width: 25%;
 	height: auto;
 	position: relative;
-	left: 60%;
+	left: -20%;
 	bottom: 40%;
 	align-content: right;
 }
@@ -102,7 +102,7 @@ h1 {
 	display: list-item;
 	text-align: left;
 	position: relative;
-	font-size: 1vw;
+	font-size: 1.1vw;
 	right: 50%;
 	bottom: 40%;
 	color: #373a40;
@@ -112,11 +112,12 @@ h1 {
 .technologyList {
 	position: relative;
 	text-align: left;
-	font-size: 1.5vw;
+	font-size: 1.1vw;
 	color: #eeeeee;
 	list-style-type: circle;
 	display: inline-flex;
 	left: 40%;
+	z-index: -1;
 }
 /*navbar*/
 

@@ -4,6 +4,24 @@
 // document.querySelector("body").appendChild(h2);
 
 const aiPic = document.getElementById("thumbnail-pic");
+const aiLi1 = document.querySelector(
+	"#container-info > div:nth-child(3) > ul > li:nth-child(1)"
+);
+const aiLi2 = document.querySelector(
+	"#container-info > div:nth-child(3) > ul > li:nth-child(2)"
+);
+const aiLi3 = document.querySelector(
+	"#container-info > div:nth-child(3) > ul > li:nth-child(3)"
+);
+const aiLi4 = document.querySelector(
+	"#container-info > div:nth-child(3) > ul > li:nth-child(5)"
+);
+const aiLi5 = document.querySelector(
+	"#container-info > div:nth-child(3) > ul > li:nth-child(6)"
+);
+const aiLi6 = document.querySelector(
+	"#container-info > div:nth-child(3) > ul > li:nth-child(7)"
+);
 
 function hover(element) {
 	aiPic.setAttribute(
@@ -19,11 +37,32 @@ function unhover(element) {
 	);
 }
 
-function clicked(element) {}
+//click functionality for AI pic
+function clicked(element) {
+	if (aiPic.style.left === "-20%") {
+		aiPic.style.left = "60%";
+		aiLi1.style.zIndex = "100";
+		aiLi2.style.zIndex = "100";
+		aiLi3.style.zIndex = "100";
+		aiLi4.style.zIndex = "100";
+		aiLi5.style.zIndex = "100";
+		aiLi6.style.zIndex = "100";
+	} else {
+		aiPic.style.left = "-20%";
+		aiLi1.style.zIndex = "-1";
+		aiLi2.style.zIndex = "-1";
+		aiLi3.style.zIndex = "-1";
+		aiLi4.style.zIndex = "-1";
+		aiLi5.style.zIndex = "-1";
+		aiLi6.style.zIndex = "-1";
+	}
+}
 
 aiPic.addEventListener("mouseover", hover);
 aiPic.addEventListener("click", clicked);
 aiPic.addEventListener("mouseout", unhover);
+
+//Pic 2 hover and unhover
 
 const aiPic2 = document.getElementById("thumbnail-pic2");
 const eduList = document.getElementsByClassName("educationList");
@@ -41,6 +80,8 @@ function unhover2(element) {
 		"https://cdn-icons-png.flaticon.com/512/4529/4529992.png"
 	);
 }
+
+// On click interactivity with thumbnail pic2
 
 const brainPic = document.querySelector("#thumbnail-pic2");
 const eduLi1 = document.querySelector(
