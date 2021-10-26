@@ -19,9 +19,14 @@ li {
 h1 {
 	text-align: center;
 }
+ul .techgonologyList {
+	float: left;
+	display: block;
+}
 /* Text and images inside background pic */
 #container {
 	width: 100%;
+	height: auto;
 	position: relative;
 	display: block;
 }
@@ -52,7 +57,7 @@ h1 {
 
 /* Info section  */
 #container-info {
-	height: 25vh;
+	height: 26vh;
 	width: 100%;
 	padding: 20px;
 	position: relative;
@@ -61,17 +66,19 @@ h1 {
 	background-image: -webkit-linear-gradient(30deg, #373a40 50%, #eeeeee 50%);
 	box-shadow: -2px -10px 100px rgb(241, 242, 243);
 }
+
 .right-side-text {
 	position: relative;
-	bottom: 35%;
-	right: 0%;
+	bottom: 34%;
+	right: 0;
 	color: #373a40;
 	font-size: 4vw;
+	text-align: right;
 }
 .left-side-text {
 	position: relative;
 	top: 85%;
-
+	left: 0;
 	color: #eeeeee;
 	font-size: 4vw;
 }
@@ -83,9 +90,16 @@ h1 {
 	left: 10%;
 	bottom: 40%;
 }
-#thumbnail-pic:hover {
+
+#thumbnail-pic2 {
+	width: 25%;
+	height: auto;
+	position: relative;
+	left: 60%;
+	bottom: 40%;
+	align-content: right;
 }
-/* Education List */
+/* Lists */
 .educationList {
 	list-style-type: circle;
 	display: list-item;
@@ -95,11 +109,11 @@ h1 {
 	right: 50%;
 	bottom: 40%;
 }
-/* technologyList */
+
 .techgonologyList {
 	position: relative;
-	bottom: 0;
-	left: 20%;
+	text-align: left;
+	font-size: 1vw;
 	color: #373a40;
 	list-style-type: circle;
 	display: list-item;
