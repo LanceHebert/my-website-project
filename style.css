@@ -301,7 +301,7 @@ body
 .thumbnail:hover span {
 	/*CSS for enlarged image*/
 	visibility: visible;
-	bottom: 95%;
+	bottom: 20%;
 	left: 120%; /*position where enlarged image should offset horizontally */
 	z-index: 500;
 }
