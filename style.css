@@ -250,3 +250,11 @@ body
 	> a:nth-child(3) {
 	color: #19d3da;
 }
+body
+	> div:nth-child(4)
+	> footer
+	> div.container.p-4.pb-0
+	> section
+	> a:nth-child(4) {
+	color: #19d3da;
+}
