@@ -19,13 +19,15 @@ li {
 h1 {
 	text-align: center;
 }
-
+.example-image-link {
+	position: absolute;
+}
 /* Text and images inside background pic */
 #container {
 	width: 100%;
 	height: auto;
 	position: relative;
-	display: block;
+	z-index: 500;
 }
 .img-skyabove {
 	width: 100%;
@@ -51,7 +53,17 @@ h1 {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+#container > a {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	z-index: 100;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #19d3da;
 
+	font-size: 4vh;
+}
 /* Info section  */
 #container-info {
 	height: 26vh;
@@ -257,4 +269,39 @@ body
 	> section
 	> a:nth-child(4) {
 	color: #19d3da;
+}
+
+/* POP UP IMAGE MAKER */
+
+.thumbnail:hover {
+	background-color: transparent;
+}
+
+.thumbnail span {
+	/*CSS for enlarged image*/
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	padding: 5px;
+	left: -1000px;
+
+	border: 1px dashed rgb(255, 255, 255);
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img {
+	/*CSS for enlarged image*/
+	border-width: 0;
+	padding: 2px;
+	width: 650px;
+	height: auto;
+}
+
+.thumbnail:hover span {
+	/*CSS for enlarged image*/
+	visibility: visible;
+	bottom: 95%;
+	left: 120%; /*position where enlarged image should offset horizontally */
+	z-index: 500;
 }
