@@ -41,20 +41,20 @@ function unhover(element) {
 function clicked(element) {
 	if (aiPic.style.left === "-20%") {
 		aiPic.style.left = "60%";
-		aiLi1.style.zIndex = "100";
-		aiLi2.style.zIndex = "100";
-		aiLi3.style.zIndex = "100";
-		aiLi4.style.zIndex = "100";
-		aiLi5.style.zIndex = "100";
-		aiLi6.style.zIndex = "100";
+		aiLi1.style.zIndex = "600";
+		aiLi2.style.zIndex = "600";
+		aiLi3.style.zIndex = "600";
+		aiLi4.style.zIndex = "600";
+		aiLi5.style.zIndex = "600";
+		aiLi6.style.zIndex = "600";
 	} else {
 		aiPic.style.left = "-20%";
-		aiLi1.style.zIndex = "-1";
-		aiLi2.style.zIndex = "-1";
-		aiLi3.style.zIndex = "-1";
-		aiLi4.style.zIndex = "-1";
-		aiLi5.style.zIndex = "-1";
-		aiLi6.style.zIndex = "-1";
+		aiLi1.style.zIndex = "-5";
+		aiLi2.style.zIndex = "-5";
+		aiLi3.style.zIndex = "-5";
+		aiLi4.style.zIndex = "-5";
+		aiLi5.style.zIndex = "-5";
+		aiLi6.style.zIndex = "-5";
 	}
 }
 
@@ -97,9 +97,9 @@ const eduLi3 = document.querySelector(
 function clicked2(element) {
 	if (brainPic.style.left === "90%") {
 		brainPic.style.left = "10%";
-		eduLi1.style.zIndex = "100";
-		eduLi2.style.zIndex = "100";
-		eduLi3.style.zIndex = "100";
+		eduLi1.style.zIndex = "500";
+		eduLi2.style.zIndex = "500";
+		eduLi3.style.zIndex = "500";
 	} else {
 		brainPic.style.left = "90%";
 		eduLi1.style.zIndex = "-1";
