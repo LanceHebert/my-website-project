@@ -14,7 +14,7 @@ const aiLi3 = document.querySelector(
 	"#container-info > div:nth-child(3) > ul > li:nth-child(3)"
 );
 const aiLi4 = document.querySelector(
-	"#container-info > div:nth-child(3) > ul > li:nth-child(5)"
+	"#container-info > div:nth-child(3) > ul > li:nth-child(4)"
 );
 const aiLi5 = document.querySelector(
 	"#container-info > div:nth-child(3) > ul > li:nth-child(6)"

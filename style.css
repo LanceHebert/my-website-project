@@ -150,7 +150,11 @@ body > nav {
 	color: #eeeeee;
 	font-size: 200%;
 }
-#icon-color {
+
+.icon-color {
+	color: #19d3da;
+}
+#navbar-home {
 	color: #19d3da;
 }
 #navbarScrollingDropdown {
