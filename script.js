@@ -4,24 +4,7 @@
 // document.querySelector("body").appendChild(h2);
 
 const aiPic = document.getElementById("thumbnail-pic");
-const aiLi1 = document.querySelector(
-	"#container-info > div:nth-child(3) > ul > li:nth-child(1)"
-);
-const aiLi2 = document.querySelector(
-	"#container-info > div:nth-child(3) > ul > li:nth-child(2)"
-);
-const aiLi3 = document.querySelector(
-	"#container-info > div:nth-child(3) > ul > li:nth-child(3)"
-);
-const aiLi4 = document.querySelector(
-	"#container-info > div:nth-child(3) > ul > li:nth-child(4)"
-);
-const aiLi5 = document.querySelector(
-	"#container-info > div:nth-child(3) > ul > li:nth-child(6)"
-);
-const aiLi6 = document.querySelector(
-	"#container-info > div:nth-child(3) > ul > li:nth-child(7)"
-);
+const divbox3 = document.querySelector("#container-info > div:nth-child(3)");
 
 function hover(element) {
 	aiPic.setAttribute(
@@ -41,20 +24,12 @@ function unhover(element) {
 function clicked(element) {
 	if (aiPic.style.left === "-20%") {
 		aiPic.style.left = "60%";
-		aiLi1.style.zIndex = "600";
-		aiLi2.style.zIndex = "600";
-		aiLi3.style.zIndex = "600";
-		aiLi4.style.zIndex = "600";
-		aiLi5.style.zIndex = "600";
-		aiLi6.style.zIndex = "600";
+
+		divbox3.style.zIndex = "600";
 	} else {
 		aiPic.style.left = "-20%";
-		aiLi1.style.zIndex = "-5";
-		aiLi2.style.zIndex = "-5";
-		aiLi3.style.zIndex = "-5";
-		aiLi4.style.zIndex = "-5";
-		aiLi5.style.zIndex = "-5";
-		aiLi6.style.zIndex = "-5";
+
+		divbox3.style.zIndex = "-5";
 	}
 }
 
@@ -84,27 +59,16 @@ function unhover2(element) {
 // On click interactivity with thumbnail pic2
 
 const brainPic = document.querySelector("#thumbnail-pic2");
-const eduLi1 = document.querySelector(
-	"#container-info > div:nth-child(2) > ul > li:nth-child(1)"
-);
-const eduLi2 = document.querySelector(
-	"#container-info > div:nth-child(2) > ul > li:nth-child(2)"
-);
-const eduLi3 = document.querySelector(
-	"#container-info > div:nth-child(2) > ul > li:nth-child(3)"
-);
+const divbox2 = document.querySelector("#container-info > div:nth-child(2)");
 
 function clicked2(element) {
 	if (brainPic.style.left === "90%") {
 		brainPic.style.left = "10%";
-		eduLi1.style.zIndex = "500";
-		eduLi2.style.zIndex = "500";
-		eduLi3.style.zIndex = "500";
+
+		divbox2.style.zIndex = "500";
 	} else {
 		brainPic.style.left = "90%";
-		eduLi1.style.zIndex = "-1";
-		eduLi2.style.zIndex = "-1";
-		eduLi3.style.zIndex = "-1";
+		divbox2.style.zIndex = "-1";
 	}
 }
 
