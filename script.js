@@ -1,8 +1,3 @@
-// const h2 = document.createElement("h2");
-// h2.textContent = "This content added by JavaScript";
-
-// document.querySelector("body").appendChild(h2);
-
 const aiPic = document.getElementById("thumbnail-pic");
 const divbox3 = document.querySelector("#container-info > div:nth-child(3)");
 
@@ -38,28 +33,24 @@ aiPic.addEventListener("click", clicked);
 aiPic.addEventListener("mouseout", unhover);
 
 //Pic 2 hover and unhover
-
-const aiPic2 = document.getElementById("thumbnail-pic2");
-const eduList = document.getElementsByClassName("educationList");
+const brainPic = document.querySelector("#thumbnail-pic2");
+const divbox2 = document.querySelector("#container-info > div:nth-child(2)");
 
 function hover2(element) {
-	aiPic2.setAttribute(
+	brainPic.setAttribute(
 		"src",
 		"https://cdn-icons-png.flaticon.com/512/4529/4529989.png"
 	);
 }
 
 function unhover2(element) {
-	aiPic2.setAttribute(
+	brainPic.setAttribute(
 		"src",
 		"https://cdn-icons-png.flaticon.com/512/4529/4529992.png"
 	);
 }
 
 // On click interactivity with thumbnail pic2
-
-const brainPic = document.querySelector("#thumbnail-pic2");
-const divbox2 = document.querySelector("#container-info > div:nth-child(2)");
 
 function clicked2(element) {
 	if (brainPic.style.left === "90%") {

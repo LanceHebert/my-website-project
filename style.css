@@ -11,9 +11,8 @@ h2 {
 	font-size: 4vh;
 }
 li {
-	display: flex;
-	align-items: center;
-	padding: 10px;
+	display: inline-block;
+	padding: 5px;
 	color: #eeeeee;
 }
 h1 {
@@ -22,6 +21,7 @@ h1 {
 .example-image-link {
 	position: absolute;
 }
+
 /* Text and images inside background pic */
 #container {
 	height: auto;
@@ -76,6 +76,9 @@ h1 {
 	box-shadow: -2px -20px 75px rgb(241, 242, 243);
 }
 
+#container-info > div:nth-child(3) {
+	min-width: 400px;
+}
 .right-side-text {
 	position: relative;
 	bottom: 34%;
@@ -130,9 +133,10 @@ h1 {
 	font-size: 1.1vw;
 	color: #eeeeee;
 	list-style-type: circle;
-	display: inline-flex;
+	display: list-item;
 	left: 40%;
 	z-index: -1;
+	padding: 0;
 }
 /*navbar*/
 
